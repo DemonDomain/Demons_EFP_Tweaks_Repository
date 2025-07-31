@@ -2,6 +2,7 @@
 ------------------------------------------------------------------------------------------------------------------------------
 A list of tweaks and other useful knowledge regarding file edits, i just add shit whenever i come across useful info.
 Stuff is listed as i come across info, so newest stuff is towards the bottom.
+Most of the edited files relevant to this repository are uploaded for storage/backup purposes
 
 ------------------------------------------------------------------------------------------------------------------------------
 ## &#x2699; NVG BLUR AND NOISE
