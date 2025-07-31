@@ -1,0 +1,10 @@
+<w>
+	<file name="ui\squaredov\bar_sight">
+	    <texture id="ui_inGame2_Radar_green_bar" x="0" y="0" width="0" height="0" />
+	</file>
+
+	<file name="ui\squaredov\bar_noise">
+		<texture id="ui_inGame2_Radar_blue_bar" x="0" y="0" width="0" height="0" />
+	</file>
+	
+</w>

@@ -1,0 +1,133 @@
+[logic@esc_smart_terrain_5_2_squad_1]
+active = walker@karat_army_esc_smart_terrain_2_12_squad_1
+suitable = {=target_squad_name(karat_army_esc_smart_terrain_2_12) !surge_started} true
+prior = 200
+
+[walker@karat_army_esc_smart_terrain_2_12_squad_1]:walker@generic
+path_walk = guard_1_walk
+path_look = guard_1_look
+
+[logic@esc_smart_terrain_5_2_squad_2]
+active = walker@karat_army_esc_smart_terrain_2_12_squad_2
+suitable = {=target_squad_name(karat_army_esc_smart_terrain_2_12) !surge_started} true
+prior = 200
+
+[walker@karat_army_esc_smart_terrain_2_12_squad_2]:walker@generic
+path_walk = guard_2_walk
+path_look = guard_2_look
+meet = meet
+
+[logic@esc_smart_terrain_5_2_squad_3]
+active = walker@karat_army_esc_smart_terrain_2_12_squad_3
+suitable = {=target_squad_name(karat_army_esc_smart_terrain_2_12) !surge_started} true
+prior = 200
+
+[walker@karat_army_esc_smart_terrain_2_12_squad_3]:walker@generic
+path_walk = walker_1_walk
+path_look = walker_1_look
+meet = meet
+danger = danger
+
+[logic@esc_smart_terrain_5_2_squad_4]
+active = beh@karat_army_esc_smart_terrain_2_12_squad_4
+suitable = {=target_squad_name(karat_army_esc_smart_terrain_2_12) !surge_started} true
+prior = 45
+
+[logic@esc_smart_terrain_5_2_squad_5]
+active = beh@karat_army_esc_smart_terrain_2_12_squad_5
+suitable = {=target_squad_name(karat_army_esc_smart_terrain_2_12) !surge_started} true
+prior = 200
+
+[logic@esc_smart_terrain_5_2_squad_6]
+active = beh@karat_army_esc_smart_terrain_2_12_squad_6
+suitable = {=target_squad_name(karat_army_esc_smart_terrain_2_12) !surge_started} true
+prior = 200
+
+[logic@esc_smart_terrain_5_2_squad_7]
+active = beh@karat_army_esc_smart_terrain_2_12_squad_7
+suitable = {=target_squad_name(karat_army_esc_smart_terrain_2_12) !surge_started}
+prior = 45
+
+[logic@esc_smart_terrain_5_2_squad_8]
+active = beh@karat_army_esc_smart_terrain_2_12_squad_8
+suitable = {=target_squad_name(karat_army_esc_smart_terrain_2_12) !surge_started}
+prior = 45
+
+[logic@esc_smart_terrain_5_2_squad_9]
+active = beh@karat_army_esc_smart_terrain_2_12_squad_9
+suitable = {=target_squad_name(karat_army_esc_smart_terrain_2_12) !surge_started}
+prior = 45
+
+[walker@generic]
+gather_items_enabled = false
+help_wounded_enabled = true
+corpse_detection_enabled = true
+turn_on_campfire = true
+combat_ignore_cond = {=check_enemy_name(sim_default) =fighting_dist_ge(50)} true, false
+combat_ignore_keep_when_attacked = false
+meet = meet
+danger = danger
+
+[beh@general_guard]
+behavior_state = beh_move
+target = waypoint
+walk_dist = 100
+jog_dist = 220
+walk_anim = patrol
+jog_anim = assault
+run_anim = assault
+delay_anim = guard
+combat_ignore_cond = false
+combat_ignore_keep_when_attacked = false
+turn_on_campfire = true
+gather_items_enabled = false
+help_wounded_enabled = true
+corpse_detection_enabled = true
+invulnerable = {!actor_true_enemy} true, false	
+meet = meet
+danger = danger
+
+[meet]
+close_anim = nil
+close_victim = nil
+far_anim = nil
+far_victim = nil
+close_distance = 0
+far_distance = 0
+close_snd_distance = 3
+abuse = false
+use = {=actor_enemy} false, true
+allow_break = false
+meet_on_talking = true
+trade_enable = false
+
+[danger]
+danger_expiration_time = 30000
+danger_inertion_time_grenade = 90000
+danger_inertion_time_hit = 90000
+danger_inertion_time_sound = 90000
+danger_inertion_time_ricochet = 90000
+
+[beh@karat_army_esc_smart_terrain_2_12_squad_4]:beh@general_guard
+pt1 = 88860000, fold_arms  			| pos: 22.135007858276, 16.518793106079, 679.134765625   look: 21.459903717041, 16.518703460693, 679.12866210938
+path_end = loop
+
+[beh@karat_army_esc_smart_terrain_2_12_squad_5]:beh@general_guard
+pt1 = 88860000, guard	  			| pos: 8.0143709182739, 16.572008132935, 686.26989746094 look: 8.4900608062744, 16.48752784729, 685.63330078125
+path_end = loop
+
+[beh@karat_army_esc_smart_terrain_2_12_squad_6]:beh@general_guard
+pt1 = 88860000, guard 				| pos: 12.111597061157, 15.46762752533, 657.26501464844  look: 12.632202148438, 15.332869529724, 656.07891845703
+path_end = loop
+
+[beh@karat_army_esc_smart_terrain_2_12_squad_7]:beh@general_guard
+pt1 = 88860000, guard 				| pos: 68.67569732666, 8.3970699310303, 609.76428222656  look: 68.536018371582, 8.2060842514038, 608.64208984375
+path_end = loop
+
+[beh@karat_army_esc_smart_terrain_2_12_squad_8]:beh@general_guard
+pt1 = 88860000, guard 				| pos: 74.100608825684, 8.9517211914062, 611.13305664062 look: 74.403991699219, 8.7994794845581, 610.07751464844
+path_end = loop
+
+[beh@karat_army_esc_smart_terrain_2_12_squad_9]:beh@general_guard
+pt1 = 88860000, sit_ass 			| pos: 68.257446289062, 9.0887355804443, 614.18585205078 look: 68.67569732666, 8.3970699310303, 609.76428222656
+path_end = loop
