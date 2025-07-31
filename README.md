@@ -2,10 +2,8 @@
 ------------------------------------------------------------------------------------------------------------------------------
 A list of my tweaks and documentation on how to do them yourself.
 Stuff is in no particular order in this readme.
-Most of the edited files relevant to this repository and the following documentation are available for download
-
-(As i am a verified noob with Github, you sadly have to download/copy them one by one)
-
+Most of the edited files relevant to this repository and the following documentation are available for download as a zip file
+[Download here](https://github.com/DemonDomain/Demon-s-S.T.AL.K.E.R-Anomaly-Repository/releases/download/DemonDomain/Demons_STALKER_Tweaks.7z)
 ------------------------------------------------------------------------------------------------------------------------------
 ## A USEFUL NVG TWEAK
 
