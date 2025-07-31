@@ -64,6 +64,7 @@ To change the quest arrow color from red to anything else, go to `gamedata\textu
 Find `ui_hud.dds` and make a backup of the file, then open the original with your chosen photoeditor
 
 The arrow is around the center, on the top half of the image, paint it to your desired color and overwrite the original without changes to formats etc.
+This is easy to do with GIMP atleast.
 
 ---------------------------------------------------------------
 If you have EFP and want to hide the sight and noise bars, find and open:
