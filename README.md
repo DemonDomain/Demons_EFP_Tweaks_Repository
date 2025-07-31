@@ -1,8 +1,7 @@
 # Demons S.T.AL.K.E.R Anomaly Repository &#x1F4DD;
 ------------------------------------------------------------------------------------------------------------------------------
-
 A list of tweaks and other useful knowledge regarding file edits, i just add shit whenever i come across useful info.
-Stuff is listed as i come across info, so newest stuff is towards the bottom
+Stuff is listed as i come across info, so newest stuff is towards the bottom.
 
 ------------------------------------------------------------------------------------------------------------------------------
 ## &#x2699; NVG BLUR AND NOISE
@@ -50,7 +49,7 @@ You might need to remove stuff from the pool as the game seems to have somekind 
 The file itself has good guide so figuring it out is easy
 
 ------------------------------------------------------------------------------------------------------------------------------                                                              
-##  UI 
+## &#x2705; UI 
 
 To change the questarrow color from red to anything else, open:
 
