@@ -42,31 +42,21 @@ Find and remove the following lines:
 `[death@soldier] 
 on_info = {=killed_by_actor =actor_community(actor_stalker)} %=dec_faction_goodwill_to_actor(stalker:25) =send_tip(st_honor_sidorovich_deal:stalker)%`
 
-Now you can blast the military mfers on the railway bridge and checkpoint to Garbage without repercussions.
-
-Especially useful if you chose to start in Cordon/Rookie Village as a Loner.
-
-------------------------------------------------------------------------------------------------------------------------------
-### Difficulty tweaks (not really good to fiddle with these, but this is how to edit them anyways)
-
-To tweak difficulties, go to `gamedata\configs\plugins\difficulty.ltx`
-
-The file has a great explanations regarding the contents and should be pretty easy to understand.
-
-It's advisable to have the game open on a second screen to see the min and max values, so you dont set too high or too low values depending on the setting.
-
-Changes in `gamedata\configs\presets\economy_diff` and `gameplay_diff.ltx` dont seem to have any effect based on my experience. Most likely "leftovers" from the CoP files the game is built on
+Now you can blast the military stalkers on the railway bridge and checkpoint to Garbage without repercussions if you chose to start in Cordon/Rookie Village as a Loner.
 
 ------------------------------------------------------------------------------------------------------------------------------
 ### New Game Loadouts
 
 To tweak loadouts, go to `gamedata\configs\items\settings\new_game_loadouts.ltx`
 
-If you want to add items to the pool, open game in debug mode and hold cursor on top the item you want to add
+If you want to add items to the pool, open game in debug mode, press F7 when loaded in game to open debug menu , go to Item Spawner and hold cursor on top the item you want to add
 
-You might need to remove stuff from the pool as the game seems to have somekind of hardcoded limit on the items shown on the screen
+You might need to remove stuff from the pool as the game seems to have a hardcoded limit on the items shown on the screen
 
 The file itself has good guide on the top, so figuring it out is easy
+
+My file gives a lot of essentials(food, water and health items) in your inventory from the get go as its meant for Hard/Survivalist/Ironman-combo. 
+(1 Life/5 Days to be specific)
 
 ------------------------------------------------------------------------------------------------------------------------------                                                              
 ### UI 
