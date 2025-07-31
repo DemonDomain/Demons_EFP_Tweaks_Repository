@@ -64,3 +64,8 @@ If you have EFP and want to hide the sight and noise bars, find and open:
 - `\mods\[Strogglet15] SquareDOV 2\gamedata\configs\ui\textures_descr\ui_SquareDOV.xml`
 
 Change `width="256" height="256"` to `width="0" height="0"` in  lines 3 and 7
+
+
+
+## License
+This project is licensed under the Creative Commons Zero (CC0) license. You are free to use, modify, and distribute the files without any restrictions.
