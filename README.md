@@ -44,7 +44,7 @@ on_info = {=killed_by_actor =actor_community(actor_stalker)} %=dec_faction_goodw
 
 Now you can blast the military mfers on the railway bridge and checkpoint to Garbage without repercussions.
 
-Especially if you chose to start in Cordon/Rookie Village, especially as a Loner.
+Especially useful if you chose to start in Cordon/Rookie Village as a Loner.
 
 ------------------------------------------------------------------------------------------------------------------------------
 ### Difficulty tweaks
