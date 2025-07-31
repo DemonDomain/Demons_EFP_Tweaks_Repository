@@ -6,7 +6,7 @@ Stuff is listed as i come across info, so newest stuff is towards the bottom.
 ------------------------------------------------------------------------------------------------------------------------------
 ## &#x2699; NVG BLUR AND NOISE
 In `gamedata/shaders/r3/nightvision_gen_1/2/3.ps`, the following line affects the blurriness
-by default its 0.2,1. You need to do this in all 3 files if you want the change to affect all nvg's
+By default its 0.2,1. You need to do this in all 3 files if you want the change to affect all nvg's
 
 `image = lerp(image,half_res_blur,clamp(1-smoothstep(0,15,depth),0.2,0.5)); // NEAR BLUR`
 
