@@ -1,4 +1,4 @@
-# Demons S.T.AL.K.E.R Anomaly Repository &#x1F4DD;
+# Demons S.T.AL.K.E.R Anomaly Repository
 ------------------------------------------------------------------------------------------------------------------------------
 A list of my tweaks and documentation on how to do them yourself.
 Stuff is in no particular order in this readme.
@@ -7,7 +7,9 @@ Most of the edited files relevant to this repository and the following documenta
 (As i am a verified noob with Github, you sadly have to download/copy them one by one)
 
 ------------------------------------------------------------------------------------------------------------------------------
-## &#x2699; NVG BLUR AND NOISE
+## A USEFUL NVG TWEAK
+
+### Reduce NVG blur and noise
 In `gamedata/shaders/r3/nightvision_gen_1/2/3.ps`, the following line affects the blurriness.
 By default its 0.2,1. You need to do this in all 3 files if you want the change to affect all nvg's
 
@@ -21,7 +23,9 @@ You can change the 0.5 to 0.25 for example to reduce the noise
             image.r += jitter.y * (gen_3_nvg_noise_factor * (pow(lua_param_nvg_gain_current,0.5) )); // Add the noise to the image`
             
 ------------------------------------------------------------------------------------------------------------------------------
-## &#x1F527; Gameplay related
+## Gameplay related tweaks
+
+### ReDone_Collection_2.3.4_SOUTH_MAPS_COLLECTION
 If you play with Re:Done maps (south in this case), go to `gamedata\configs\scripts\escape` and open:
 
 - `esc_smart_terrain_5_2_squad_logic`
@@ -37,14 +41,14 @@ on_info = {=killed_by_actor =actor_community(actor_stalker)} %=dec_faction_goodw
 Now you can blast the military mfers on the railway bridge and checkpoint to Garbage without repercussions.
 Especially if you chose to start in Cordon/Rookie Village, especially as a Loner.
 ------------------------------------------------------------------------------------------------------------------------------
-## &#x2757; Difficulty tweaks
+### Difficulty tweaks
 
 To tweak difficulties, go to `gamedata\configs\plugins\difficulty.ltx`
 It's advisable to have the game open on a second screen for reference(to see the minimums/maximums etc)
 Changes in `gamedata\configs\presets\economy_diff` and `gameplay_diff.ltx` dont seem to have any effect.
 
 ------------------------------------------------------------------------------------------------------------------------------
-## &#x1F4C4; New Game Loadouts
+### New Game Loadouts
 
 To tweak loadouts, go to `gamedata\configs\items\settings\new_game_loadouts.ltx`
 If you want to add items to the pool, open game in debug mode and hold cursor on top the item you want to add
@@ -52,7 +56,7 @@ You might need to remove stuff from the pool as the game seems to have somekind 
 The file itself has good guide so figuring it out is easy
 
 ------------------------------------------------------------------------------------------------------------------------------                                                              
-## &#x2705; UI 
+### UI 
 
 To change the questarrow color from red to anything else, open:
 
