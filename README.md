@@ -47,13 +47,15 @@ Now you can blast the military mfers on the railway bridge and checkpoint to Gar
 Especially useful if you chose to start in Cordon/Rookie Village as a Loner.
 
 ------------------------------------------------------------------------------------------------------------------------------
-### Difficulty tweaks
+### Difficulty tweaks (not really good to fiddle with these, but this is how to edit them anyways)
 
 To tweak difficulties, go to `gamedata\configs\plugins\difficulty.ltx`
 
-It's advisable to have the game open on a second screen for reference(to see the minimums/maximums etc)
+The file has a great explanations regarding the contents and should be pretty easy to understand.
 
-Changes in `gamedata\configs\presets\economy_diff` and `gameplay_diff.ltx` dont seem to have any effect based on my experience.
+It's advisable to have the game open on a second screen to see the min and max values, so you dont set too high or too low values depending on the setting.
+
+Changes in `gamedata\configs\presets\economy_diff` and `gameplay_diff.ltx` dont seem to have any effect based on my experience. Most likely "leftovers" from the CoP files the game is built on
 
 ------------------------------------------------------------------------------------------------------------------------------
 ### New Game Loadouts
@@ -69,7 +71,7 @@ The file itself has good guide on the top, so figuring it out is easy
 ------------------------------------------------------------------------------------------------------------------------------                                                              
 ### UI 
 
-To change the questarrow color from red to anything else, go to `gamedata\textures\ui`
+To change the quest arrow color from red to anything else, go to `gamedata\textures\ui`
 
 Find `ui_hud.dds` and make a backup of the file, then open the original with your chosen photoeditor
 
