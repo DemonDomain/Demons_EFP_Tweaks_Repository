@@ -57,6 +57,7 @@ My file gives a lot of essentials(food, water and health items) in your inventor
 
 ------------------------------------------------------------------------------------------------------------------------------                                                              
 ### UI 
+**the 2 xml files in `Demon's Tweaks/gamedata/configs/ui` require `Aydins_BHS_HUD`**
 
 To change the quest arrow color from red to anything else, go to `gamedata\textures\ui`
 
