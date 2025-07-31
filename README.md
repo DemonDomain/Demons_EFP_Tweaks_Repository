@@ -10,11 +10,12 @@ Most of the edited files relevant to this repository and the following documenta
 ## A USEFUL NVG TWEAK
 
 ### Reduce NVG blur and noise
-In `gamedata/shaders/r3/nightvision_gen_1/2/3.ps`, the following line affects the blurriness.
+In `gamedata/shaders/r3/nightvision_gen_1/2/3.ps`, the following line affects the blurriness in the view.
 
-`image = lerp(image,half_res_blur,clamp(1-smoothstep(0,15,depth),0.2,0.5)); // NEAR BLUR`
+`image = lerp(image,half_res_blur,clamp(1-smoothstep(0,15,depth),0.2,1)); // NEAR BLUR`
 
-By default its 0.2,1. You need to do this in all 3 files if you want the change to affect all nvg's
+By changing the 0.2,1 to 0.2,0.5 for example, you reduce the amount of blur. You need to do this in all 3 files if you want the change to affect all nvg's
+
 
 The following line affects the amount of noise present in the nvg view
 
@@ -30,8 +31,9 @@ You can change the 0.5 to 0.25 for example to reduce the noise
 ### ReDone_Collection_2.3.4_SOUTH_MAPS_COLLECTION
 If you play with Re:Done maps (south in this case), go to `gamedata\configs\scripts\escape` and open:
 
-- `esc_smart_terrain_5_2_squad_logic`
-- `esc_smart_terrain_6_8_squad_logic`
+- `esc_smart_terrain_5_2_squad_logic.ltx`
+  and
+- `esc_smart_terrain_6_8_squad_logic.ltx`
 
 Find and remove the following lines:
  
@@ -51,7 +53,7 @@ To tweak difficulties, go to `gamedata\configs\plugins\difficulty.ltx`
 
 It's advisable to have the game open on a second screen for reference(to see the minimums/maximums etc)
 
-Changes in `gamedata\configs\presets\economy_diff` and `gameplay_diff.ltx` dont seem to have any effect.
+Changes in `gamedata\configs\presets\economy_diff` and `gameplay_diff.ltx` dont seem to have any effect based on my experience.
 
 ------------------------------------------------------------------------------------------------------------------------------
 ### New Game Loadouts
@@ -62,16 +64,16 @@ If you want to add items to the pool, open game in debug mode and hold cursor on
 
 You might need to remove stuff from the pool as the game seems to have somekind of hardcoded limit on the items shown on the screen
 
-The file itself has good guide so figuring it out is easy
+The file itself has good guide on the top, so figuring it out is easy
 
 ------------------------------------------------------------------------------------------------------------------------------                                                              
 ### UI 
 
-To change the questarrow color from red to anything else, open:
+To change the questarrow color from red to anything else, go to `gamedata\textures\ui`
 
-- `gamedata\textures\ui\ui_hud.dds`
+Find `ui_hud.dds` and make a backup of the file, then open the original with your chosen photoeditor
 
-The arrow is around the center, on the top half of the image
+The arrow is around the center, on the top half of the image, paint it to your desired color and overwrite the original without changes to formats etc.
 
 ---------------------------------------------------------------
 If you have EFP and want to hide the sight and noise bars, find and open:
