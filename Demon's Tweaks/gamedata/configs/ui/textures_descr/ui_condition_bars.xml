@@ -1,0 +1,6 @@
+<w>
+	<file name="ui\ui_actor_cond_bars">
+        <texture id="ui_svui_condition_bar"  x="0" y="0" width="120" height="11" />
+		    <texture id="ui_svui_uses_bar" x="0" y="12" width="76" height="11" />
+    </file>
+</w>

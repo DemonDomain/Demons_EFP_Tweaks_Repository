@@ -1,0 +1,19 @@
+<w>
+    <file name="ui\ui_actor_factions">
+		<!-- Factions -->
+		<texture id="ui_inGame2_freedom" x="0" y="26" width="818" height="183" />
+	    <texture id="ui_inGame2_stalker" x="0" y="216" width="818" height="183" />
+		<texture id="ui_inGame2_bandit" x="0" y="406" width="818" height="183" />
+		<texture id="ui_inGame2_dolg" x="0" y="596" width="818" height="183" />
+		<texture id="ui_inGame2_csky" x="0" y="786" width="818" height="183" />
+		<texture id="ui_inGame2_ecolog" x="0" y="976" width="818" height="183" />
+	    <texture id="ui_inGame2_army" x="0" y="1166" width="818" height="183" />
+		<texture id="ui_inGame2_killer" x="0" y="1356" width="818" height="183" />
+		<texture id="ui_inGame2_monolith" x="0" y="1546" width="818" height="183" />
+		<texture id="ui_inGame2_renegade" x="0" y="1736" width="818" height="183" />
+		<texture id="ui_inGame2_neutral" x="880" y="26" width="818" height="183" />
+		<texture id="ui_inGame2_greh" x="880" y="216" width="818" height="183" />
+		<texture id="ui_inGame2_isg" x="880" y="406" width="818" height="183" />
+        <texture id="ui_mm_faction_roubles"		x="0" y="0" 	width="18" height="24" />
+	</file>
+</w>

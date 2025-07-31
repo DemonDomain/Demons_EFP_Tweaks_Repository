@@ -1,0 +1,30 @@
+local statuses = {
+    ["ExplImmunity"]           = true,
+	["StrikeImmunity"]         = true,
+	["FireWoundImmunity"]      = true,
+	["WoundImmunity"]          = true,
+}
+local ico = { icon =  "ui\\extraalticons\\resistances_buff.dds", background = "ui\\extraalticons\\buffs_background.dds"}
+local get_boost = actor_status.get_boost
+
+function get_ballistic_boost()
+    for prot, _ in pairs(statuses) do
+        local result = get_boost(prot, true)
+        if result then
+            return result
+        end
+    end
+end
+
+function on_game_start()
+    actor_status.add_indicator("BallisticResistance", {
+        index = 11,
+        typ = "booster",
+        functor = {"svui_statuses","get_ballistic_boost"},
+        icon = ico.icon,
+        background = ico.background,
+        anim_icon = false,
+        anim_bk = false,
+        anim_period= 5
+    })
+end
