@@ -11,12 +11,16 @@ Most of the edited files relevant to this repository and the following documenta
 
 ### Reduce NVG blur and noise
 In `gamedata/shaders/r3/nightvision_gen_1/2/3.ps`, the following line affects the blurriness.
+
 By default its 0.2,1. You need to do this in all 3 files if you want the change to affect all nvg's
 
 `image = lerp(image,half_res_blur,clamp(1-smoothstep(0,15,depth),0.2,0.5)); // NEAR BLUR`
 
+
 The following line affects the amount of noise present in the nvg view
+
 You can change the 0.5 to 0.25 for example to reduce the noise
+
 
 `// APPLY NOISE
             float lua_param_nvg_gain_current = floor(shader_param_8.y) / 10.0f;
@@ -39,20 +43,27 @@ Find and remove the following lines:
 on_info = {=killed_by_actor =actor_community(actor_stalker)} %=dec_faction_goodwill_to_actor(stalker:25) =send_tip(st_honor_sidorovich_deal:stalker)%`
 
 Now you can blast the military mfers on the railway bridge and checkpoint to Garbage without repercussions.
+
 Especially if you chose to start in Cordon/Rookie Village, especially as a Loner.
+
 ------------------------------------------------------------------------------------------------------------------------------
 ### Difficulty tweaks
 
 To tweak difficulties, go to `gamedata\configs\plugins\difficulty.ltx`
+
 It's advisable to have the game open on a second screen for reference(to see the minimums/maximums etc)
+
 Changes in `gamedata\configs\presets\economy_diff` and `gameplay_diff.ltx` dont seem to have any effect.
 
 ------------------------------------------------------------------------------------------------------------------------------
 ### New Game Loadouts
 
 To tweak loadouts, go to `gamedata\configs\items\settings\new_game_loadouts.ltx`
+
 If you want to add items to the pool, open game in debug mode and hold cursor on top the item you want to add
+
 You might need to remove stuff from the pool as the game seems to have somekind of hardcoded limit on the items shown on the screen
+
 The file itself has good guide so figuring it out is easy
 
 ------------------------------------------------------------------------------------------------------------------------------                                                              
