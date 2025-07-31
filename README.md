@@ -1,7 +1,4 @@
-# Demon-s-S.T.AL.K.E.R-Anomaly-Repository
-Collection of tweaks and shit in no particular order
-
-# 📂 Demon's Stalker Repository
+# Demons S.T.AL.K.E.R Anomaly Repository
 
 A list of tweaks and other useful knowledge regarding file edits, i just add shit whenever i come across useful info.
 Stuff is listed as i come across info, so newest stuff is towards the bottom
