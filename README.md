@@ -1,8 +1,9 @@
 # Demons S.T.AL.K.E.R Anomaly Repository &#x1F4DD;
 ------------------------------------------------------------------------------------------------------------------------------
-A list of tweaks and other useful knowledge regarding file edits, i just add shit whenever i come across useful info.
-Stuff is listed as i come across info, so newest stuff is towards the bottom.
-Most of the edited files relevant to this repository are uploaded for storage/backup purposes
+A list of my tweaks and documentation on how to do them yourself.
+Stuff is in no particular order in this readme.
+Most of the edited files relevant to this repository and the following documentation are available for download
+(As i am a verified noob with Github, you sadly have to download/copy them one by one)
 
 ------------------------------------------------------------------------------------------------------------------------------
 ## &#x2699; NVG BLUR AND NOISE
