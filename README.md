@@ -1,6 +1,6 @@
-# Demons S.T.AL.K.E.R Anomaly Repository
+# Demons EFP Tweaks Repository
 ------------------------------------------------------------------------------------------------------------------------------
-A list of my tweaks and documentation on how to do them yourself.
+A list of my tweaks for EFP(and vanilla Anomaly) and documentation on how to do them yourself.
 Stuff is in no particular order in this readme.
 Most of the edited files relevant to this repository and the following documentation are available for download
 ------------------------------------------------------------------------------------------------------------------------------
