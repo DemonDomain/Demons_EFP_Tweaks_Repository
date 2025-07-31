@@ -1,8 +1,0 @@
-<w>
-	<file name="ui\ui_actor_trade_menu">
-		<texture id="ui_inGame2_right_side_16" x="0" y="0" width="938" height="1536" />
-	</file>
-	<file name="ui\ui_actor_trade_background">
-		<texture id="ui_inGame2_modern_trade_bg" x="0" y="0" width="1920" height="1080" />
-	</file>
-</w>
