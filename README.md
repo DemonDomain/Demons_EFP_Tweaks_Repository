@@ -2,7 +2,9 @@
 ------------------------------------------------------------------------------------------------------------------------------
 A list of my tweaks for EFP(and vanilla Anomaly) and documentation on how to do them yourself.
 Stuff is in no particular order in this readme.
+
 Most of the edited files relevant to this repository and the following documentation are available for download
+
 ------------------------------------------------------------------------------------------------------------------------------
 ## A USEFUL NVG TWEAK
 
@@ -11,7 +13,7 @@ In `gamedata/shaders/r3/nightvision_gen_1/2/3.ps`, the following line affects th
 
 `image = lerp(image,half_res_blur,clamp(1-smoothstep(0,15,depth),0.2,1)); // NEAR BLUR`
 
-By changing the 0.2,1 to 0.2,0.5 for example, you reduce the amount of blur. You need to do this in all 3 files if you want the change to affect all nvg's
+By changing the `0.2,1` to `0.2,0.5` , you reduce the amount of blur. You need to do this in all 3 files if you want the change to affect all nvg's
 
 
 The following line affects the amount of noise present in the nvg view
@@ -20,7 +22,7 @@ The following line affects the amount of noise present in the nvg view
             float lua_param_nvg_gain_current = floor(shader_param_8.y) / 10.0f;
             image.r += jitter.y * (gen_3_nvg_noise_factor * (pow(lua_param_nvg_gain_current,0.5) )); // Add the noise to the image`
 
-You can change the 0.5 to 0.25 for example to reduce the noise
+You can change the `0.5` to `0.25` to reduce the noise
 
 ------------------------------------------------------------------------------------------------------------------------------
 ## Gameplay related tweaks
