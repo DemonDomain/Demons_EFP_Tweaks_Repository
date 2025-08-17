@@ -24,6 +24,8 @@ The following line affects the amount of noise present in the nvg view
 
 You can change the `0.5` to `0.25` to reduce the noise
 
+Commenting the mentioned lines removes the effects alltogether, but its not as immersive imo
+
 ------------------------------------------------------------------------------------------------------------------------------
 ## Gameplay related tweaks
 
